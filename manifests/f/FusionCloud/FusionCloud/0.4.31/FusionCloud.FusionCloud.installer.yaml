@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+PackageIdentifier: FusionCloud.FusionCloud
+PackageVersion: 0.4.31
+InstallerType: exe
+Scope: user
+ElevationRequirement: elevationRequired
+InstallerSwitches:
+  Silent: /quiet
+  SilentWithProgress: /quiet
+  InstallLocation: '/DIR="<INSTALLPATH>"'
+ExpectedReturnCodes:
+  - InstallerReturnCode: 2
+    ReturnResponse: invalidParameter
+  - InstallerReturnCode: 8
+    ReturnResponse: rebootRequiredForInstall
+  - InstallerReturnCode: 3010
+    ReturnResponse: rebootRequiredToFinish
+UpgradeBehavior: install
+ProductCode: FusionCloud
+AppsAndFeaturesEntries:
+  - DisplayName: FusionCloud
+    Publisher: FusionCloud Team
+    DisplayVersion: 0.4.31
+    ProductCode: FusionCloud
+ReleaseDate: 2026-10-06
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://gitee.com/firepython/mycloud/releases/download/v0.4.31/FusionCloud.Installer.exe
+    InstallerSha256: 6F57CBE8520DAE3ED0861B651B46B1DE1C2D7667EC06B970C3306DDB6F4706DE
+ManifestType: installer
+ManifestVersion: 1.12.0
