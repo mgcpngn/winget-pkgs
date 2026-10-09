@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 PackageIdentifier: FusionCloud.FusionCloud
-PackageVersion: 0.4.31
+PackageVersion: 0.4.32
 InstallerType: exe
 Scope: user
 ElevationRequirement: elevationRequired
@@ -20,12 +20,11 @@ ProductCode: FusionCloud
 AppsAndFeaturesEntries:
   - DisplayName: FusionCloud
     Publisher: FusionCloud Team
-    DisplayVersion: 0.4.31
     ProductCode: FusionCloud
-ReleaseDate: 2026-10-06
+ReleaseDate: 2026-10-09
 Installers:
   - Architecture: x64
-    InstallerUrl: https://gitee.com/firepython/mycloud/releases/download/v0.4.31/FusionCloud.Installer.exe
-    InstallerSha256: 6F57CBE8520DAE3ED0861B651B46B1DE1C2D7667EC06B970C3306DDB6F4706DE
+    InstallerUrl: https://gitee.com/firepython/mycloud/releases/download/v0.4.32/FusionCloud.Installer.exe
+    InstallerSha256: 8D0714A5DF5417B8F9B4E0A4D21E671C730370F4629940C293FED4750B237186
 ManifestType: installer
 ManifestVersion: 1.12.0

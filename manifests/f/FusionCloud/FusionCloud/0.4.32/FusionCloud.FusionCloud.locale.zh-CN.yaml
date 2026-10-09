@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 PackageIdentifier: FusionCloud.FusionCloud
-PackageVersion: 0.4.31
+PackageVersion: 0.4.32
 PackageLocale: zh-CN
 Publisher: FusionCloud Team
 PublisherUrl: https://mgcpngn.github.io/fusioncloud-site/
@@ -17,6 +17,6 @@ Tags:
   - cloud-storage
   - virtual-drive
   - 网盘
-ReleaseNotesUrl: https://gitee.com/firepython/mycloud/releases/tag/v0.4.31
+ReleaseNotesUrl: https://gitee.com/firepython/mycloud/releases/tag/v0.4.32
 ManifestType: defaultLocale
 ManifestVersion: 1.12.0
